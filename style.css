@@ -1,0 +1,97 @@
+table {
+    position: relative fixed;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 88vw;
+    height: 60.5vh;
+    margin-top: 4vh;
+    
+}
+
+
+
+.header{
+    font-size: 8vh;
+    font-weight: bold;
+    margin-top: -0.1vh;
+    margin-bottom: -1vh;
+    color: yellow;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: red;
+}
+
+#player-turn{
+    font-size: 3vh;
+    color: yellow;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: red;
+}
+
+#scoreboard{
+    margin-top: -3vh;
+    font-size: 3vh;
+    color: yellow;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: red;
+}
+
+.slot{
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid black;
+    border-radius: 50%;
+} 
+
+.top{
+    width: 1vw;
+    height: 1vh;
+    background: blue;
+} 
+
+
+.reset{
+    position: absolute;
+    top: 95vh;
+    left: 50%;
+    transform: translate(-50%);
+    border: 1px solid black;
+    width: 5rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+#boarder{
+    height: 25vh;
+    width: 90%;
+    border: 1px solid black;
+    background-color: rgba(42, 187, 255, 0.842);
+}
+
+#boarder-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#scoreboard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
+html{
+    background-color: blue;
+    height: 100vh;
+    width: 100vw;
+}
